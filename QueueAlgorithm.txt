@@ -1,0 +1,15 @@
+// Implementing queue as an array -> Algorithm
+
+-> Declare queue[], front and rear as global variables.
+-> Set front and rear of queue as 0.
+-> Set initial capacity of queue as 5.
+-> Create a method called Enqueue that accepts data as parameter
+			->if capacity is equal to rear, then print queue is full.
+			->else add new data to queue[rear].
+-> create a method called Dequeue.
+			->if front and rear are same, then print queue is empty.
+			->shift all elements to the right by one till rear is reached.
+			->if rear exceeds capacity, then store queue[rear] as zero.
+->Call Enqueue method 2-3 times with different data.
+-> print the elements of the queue.
+->Call Dequeue method once and print the elements to see if the rear element is deleted or not.
