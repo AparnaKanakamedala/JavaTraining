@@ -1,0 +1,26 @@
+//LINKED LIST LOGIC
+
+// -------1. Add last-------
+
+-> Iterate through the existing list till the next pointer of a node is null.
+-> Change the next pointer from null to point to the address of the new node E.
+-> Set the next pointer of new node E to null.
+
+//-------2. Add First-------
+
+-> Check the head pointer for address of the first node.
+-> Set the new node E's next pointer to the address of first node pointed by head pointer.
+-> Change the head pointer to from the previous first node to the new first node E.
+
+//-------3. Add E after B-------
+
+->Search the linked list until the node B is found.
+->Copy the address stored in the next pointer of B into the next pointer of new node E.
+->Change the address stored in next pointer of B to address of new node E.
+
+//-------4. Remove(object/index)-------
+
+->Search the linked list until the node with object/index is found (Assume this node is O).
+->Copy the address stored in the next pointer of node O into the next pointer of the node preceding node O.
+->Node O is removed from the linked list.
+
