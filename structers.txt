@@ -1,0 +1,20 @@
+
+ARRAY ->Random Access
+      ->Static Allocation
+      ->Using Index (random)
+      ->Used to store fixed size collection of data.
+      
+Linked List ->Sequential Access
+            ->Dynamic Allocation
+            ->Linear 
+            ->Maintaining Directory of names
+            
+Stack ->Sequential Access
+      ->Dynamic Allocation
+      ->Top most element(LIFO)
+      ->Memory allocation
+      
+Queue ->Sequential Access
+      ->Dynamic Allocation
+      ->Front and End(FIFO)
+      ->Process execution
