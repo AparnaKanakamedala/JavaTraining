@@ -6,7 +6,7 @@ ARRAY ->Random Access
       
 Linked List ->Sequential Access
             ->Dynamic Allocation
-            ->Linear 
+            ->Data can be added anywhere. 
             ->Maintaining Directory of names
             
 Stack ->Sequential Access
