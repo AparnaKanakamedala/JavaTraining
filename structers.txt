@@ -19,7 +19,7 @@ Queue ->Sequential Access
       ->Front and End(FIFO)
       ->Process execution
       
-Binary Tree ->Random Access
+Binary Tree ->Sequential Access
             ->Dynamic Allocation
             ->As left and right child of leaf node
             ->Used to store information that naturally forms a hierarchical structure.
