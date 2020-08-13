@@ -48,7 +48,7 @@ Access data members :
 •	The data members and member functions of class can be accessed using the dot('. ') operator with the object.
 
 Dynamic memory allocation for user defined structures :
-•	
+•	If we create an object of some structure, then compiler allocate contiguous memory for the data members of the structure. The size of allocated memory is at least the sum of sizes of all data members.
 Array of pointers :
 •	an array of pointers is an indexed set of variables, where the variables are pointers (referencing a location in memory). The value of each integer is printed by dereferencing the pointers
 Iterate on array of pointers :
