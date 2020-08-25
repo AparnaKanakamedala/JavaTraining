@@ -9,8 +9,17 @@ public class Book {
 	}
 	public Book(long bookISBN, String bookName, double bookPrice) {
 		
+		this.bookISBN = bookISBN;
+		this.bookName = bookName;
+		this.bookPrice = bookPrice;
+		
 	}
 	public Book(long bookISBN, String bookName, String bookPublication, String author) {
+		
+		this.bookISBN = bookISBN;
+		this.bookName = bookName;
+		this.bookPublication=bookPublication;
+		this.author = author;
 		
 	}
 //	public void display() {
