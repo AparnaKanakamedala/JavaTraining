@@ -12,11 +12,12 @@ public class BookStore {
 	}
 	
 	public Book[] getBooks() {
-		Book[] books = new Book[3];
+		Book[] books = new Book[4];
 		
 		books[0] = new Book(123, "abc", "penguine", "Anamika" );
 		books[1] = new Book(456, "pqr", "penguine", "Naina" );
 		books[2] = new Book(789, "xyz", "penguine", "Sushmita" );
+		books[3] = new Book(147, "stu", 240 );
 		
 		return books;
 	}
